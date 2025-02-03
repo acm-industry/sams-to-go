@@ -29,14 +29,7 @@ graph TD;
 ## Website Flow
 ```mermaid
 graph TD;
-    HomePage-->About-->A["What is GauchoAI?"];
-    HomePage-->Services-->B["What do we do for companies?"];
-    HomePage-->Teams;
-    Teams-->Learn-->C["Team specific info for learn, maybe event calendar of upcoming learn events, etc"];
-    Teams-->Student_Projects-->D["Team specific info for student projects maybe links to a list of ongoing projects, etc"];
-    Teams-->Company_Projects-->E["Team specific info for company projects maybe links to a list of ongoing projects, etc"];
-    Teams-->Outreach/Marketing-->F["Team specific info for outreach and marketing"];
-    Teams-->Business_And_Innovation-->G["Team specific info for business and innovation maybe current startup group list, etc"];
-    HomePage-->Members-->H["Who is a part of the club right now?"];
-    HomePage-->Join-->I["How do people join GauchoAI?"];
+    A["Home Page"]-->B["Contains logo, link to Yelp, reviews, etc."];
+    B["Contains logo, link to Yelp, reviews, etc."]-->C["Menu"]-->D["Contains order phone number, sandwiches, appetizers, drinks, breakfast items, etc..(all menu items)"];
+    B["Contains logo, link to Yelp, reviews, etc."]-->C["Catering"]-->D["Contains order phone number, statistics about company sales/previous events, shop pictures, and organizations worked with"];
 ```
