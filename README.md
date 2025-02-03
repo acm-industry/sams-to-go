@@ -6,15 +6,9 @@
 
 ### [Google Sheet - Menu](https://docs.google.com/spreadsheets/d/1TAzWH3AjvOQFheClv_jF5n9che642F3QdltCs7PwcF8/edit?usp=sharing)
 
-## Domain Candidates
-sams-to-go.com
+## Domain
 
-samstogo.net
-
-samstogoiv.com
-
-**samstogoislavista.com** (selected)
-
+[samstogoislavista.com](https://www.samstogoislavista.com)
 
 ## Description
 This is the official GitHub repo for Sam's To Go's project. The owner wants a website which is clean and simple to replace the older, inactive, non-editable sites that they currently have. He wants some basic stuff like places for pictures and a menu (one that he can go in and change whenever he wants).
