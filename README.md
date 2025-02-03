@@ -31,5 +31,5 @@ graph TD;
 graph TD;
     A["Home Page"]-->B["Contains logo, link to Yelp, reviews, etc."];
     B["Contains logo, link to Yelp, reviews, etc."]-->C["Menu"]-->D["Contains order phone number, sandwiches, appetizers, drinks, breakfast items, etc..(all menu items)"];
-    B["Contains logo, link to Yelp, reviews, etc."]-->C["Catering"]-->D["Contains order phone number, statistics about company sales/previous events, shop pictures, and organizations worked with"];
+    B["Contains logo, link to Yelp, reviews, etc."]-->E["Catering"]-->F["Contains order phone number, statistics about company sales/previous events, shop pictures, and organizations worked with"];
 ```
