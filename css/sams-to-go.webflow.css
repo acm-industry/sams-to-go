@@ -471,7 +471,7 @@
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
 }
 
@@ -488,7 +488,7 @@
 }
 
 .image {
-  width: 30%;
+  width: 35%;
   height: auto;
 }
 
@@ -499,7 +499,7 @@
   background-image: linear-gradient(#ffeacb66, #ffeacb66), url('../images/call.png-lettuce.png');
   background-position: 0 0, 0 0;
   background-repeat: repeat, no-repeat;
-  background-size: auto, 29%;
+  background-size: auto, 20%;
   background-attachment: scroll, scroll;
   border-radius: 15px;
   flex-flow: column;
