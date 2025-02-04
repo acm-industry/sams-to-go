@@ -104,6 +104,7 @@
   border-width: undefinedpx;
   color: #752d02;
   text-align: center;
+  text-shadow: 2px 4px #cb7f31;
   border-color: #000;
   margin-top: 0;
   margin-bottom: 0;
@@ -112,7 +113,7 @@
   font-weight: 400;
   line-height: 100%;
   text-decoration: none;
-  position: absolute;
+  position: static;
   top: 3.46939px;
   left: 3px;
 }
@@ -1410,7 +1411,15 @@
     height: 100%;
   }
 
-  .bestsandwichbrown, .bestsandwichred {
+  .bestsandwichbrown {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    text-shadow: 2px 4px #cb7f31;
+    font-size: 76px;
+    position: static;
+  }
+
+  .bestsandwichred {
     font-size: 76px;
   }
 
