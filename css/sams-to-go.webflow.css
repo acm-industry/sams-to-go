@@ -163,6 +163,10 @@
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   background-color: #ffeacb;
+  background-image: linear-gradient(#ffeacb66, #ffeacb66), url('../images/call.png-lettuce.png');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, auto 90%;
   border: 1px #000;
   border-radius: 15px;
   flex-wrap: wrap;
@@ -200,7 +204,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Coopbl, Arial, sans-serif;
-  font-size: 28px;
+  font-size: 3vh;
   font-weight: 400;
   line-height: 100%;
   text-decoration: none;
@@ -448,7 +452,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Coopbl, Arial, sans-serif;
-  font-size: 40px;
+  font-size: 5vh;
   font-weight: 400;
   line-height: 100%;
   text-decoration: none;
