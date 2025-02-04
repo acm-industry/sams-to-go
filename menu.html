@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Feb 03 2025 23:15:15 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Feb 04 2025 05:47:32 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6799f7f118837438221d118c" data-wf-site="67985c6c01443d2a241e7d36">
 <head>
   <meta charset="utf-8">
@@ -16,15 +16,16 @@
 </head>
 <body>
   <div class="navbar">
-    <div class="w-layout-hflex container-2">
-      <a href="index.html" class="menu w-inline-block"><img src="images/Sams-To-Go-8.png" loading="lazy" sizes="(max-width: 479px) 58.625px, (max-width: 767px) 41vw, 45vw" height="104" alt="" srcset="images/Sams-To-Go-8-p-500.png 500w, images/Sams-To-Go-8-p-800.png 800w, images/Sams-To-Go-8.png 911w" class="logo logolink"></a>
-      <div class="w-layout-hflex flex-block">
-        <a href="menu.html" aria-current="page" class="menu w-inline-block w--current">
-          <div class="text">Menu</div>
-        </a>
-        <a href="catering.html" class="menu w-inline-block">
-          <div class="text">Catering</div>
-        </a>
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navinnerbar w-nav">
+      <a href="index.html" class="menu text w-inline-block"><img src="images/Sams-To-Go-8.png" loading="lazy" width="319" height="104" alt="" srcset="images/Sams-To-Go-8-p-500.png 500w, images/Sams-To-Go-8-p-800.png 800w, images/Sams-To-Go-8.png 911w" sizes="(max-width: 479px) 54vw, (max-width: 767px) 38vw, (max-width: 991px) 28vw, (max-width: 1279px) 29vw, 319px" class="logo logolink"></a>
+      <div class="container w-container">
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <a href="menu.html" aria-current="page" class="text w-nav-link w--current">Menu</a>
+          <a href="catering.html" class="text w-nav-link">Catering</a>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="icon-2 w-icon-nav-menu"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -32,6 +33,10 @@
     <div class="call-to-order-menu-card">
       <div class="menutitles">Order Now!</div>
       <div class="phone-number">Call us at:  (805) 685-8895</div>
+    </div>
+    <div class="call-to-order-menu-card-small">
+      <div class="menutitles">Order Now!</div>
+      <div class="phone-number">Call us at: <br>(805) 685-8895</div>
     </div>
     <div class="sandwiches-menu-card">
       <div class="menutitles">Famous Sandwiches</div>
@@ -104,9 +109,9 @@
             </div>
           </li>
         </ol>
-        <div class="w-layout-vflex flex-block-4">
+        <div class="w-layout-vflex all-include-menu">
           <div class="menusubtitles">All Include</div>
-          <div class="text-block-4">Mayo, Mustard, Lettuce,<br>Onion, Tomato, Pickles,<br>Peperoncinos.</div>
+          <div class="all-include-text">Mayo, Mustard, Lettuce,<br>Onion, Tomato, Pickles,<br>Peperoncinos.</div>
         </div>
         <ol start="12" role="list" class="listright">
           <li class="list-item">
@@ -182,6 +187,288 @@
       </div>
       <div class="sizes">Small (6”) / Medium (9”) / Large (12”) / Family (24”)</div>
     </div>
+    <div class="sandwiches-menu-card-small">
+      <div class="menutitles">Famous Sandwiches</div>
+      <div class="floatmenu-small">
+        <ol role="list" class="listleft-small">
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname"> Ham &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey &amp; Roast Beef</div>
+              <div class="itemprice">(10.99 / 11.99 / 18.22 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Italian Sub</div>
+              <div class="itemprice">(11.34 / 13.64 / 19.34/ 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Salami &amp; Cheese</div>
+              <div class="itemprice">(10.23 / 13.64 / 19.34 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Avocado, Cheese</div>
+              <div class="itemprice">(11.91 / 13.99 / 18.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Tuna Salad &amp; Cheese</div>
+              <div class="itemprice">(9.86 / 11.96 / 18.22 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot Pastrami</div>
+              <div class="itemprice">(10.36 / 11.40 / 17.63 / 26.96)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot/Cold Roast Beef</div>
+              <div class="itemprice">(10.23 / 11.99 / 17.93 / 27.46)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Chicken Ranch/BBQ</div>
+              <div class="itemprice">(10.23 / 11.99 / 17.93 / 27.46)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot Roast Beef &amp; Pastrami</div>
+              <div class="itemprice">(10.46 / 12.49 / 17.63 / 29.96)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">BLT &amp; Cheese</div>
+              <div class="itemprice">(9.90 / 11.99 / 18.22 / 1.23)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Ham, Bacon &amp; Cheese</div>
+              <div class="itemprice">(12.95 / 14.95 / 19.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Avocado, Bacon &amp; Cheese</div>
+              <div class="itemprice">(12.95 / 14.95 / 19.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Veggie Delight &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 1.23)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Philly Cheesesteak</div>
+              <div class="itemprice">(11.55 / 13.71 / 18.95 / 29.99)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Cali Club &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, Ranch or BBQ)</div>
+              <div class="itemprice">(12.95 / 14.99 / 19.99 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Chicken Caesar &amp; Cheese</div>
+              <div class="itemprice">(11.55 / 12.64 / 17.93 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Brooks &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, BBQ, Hot Sauce, Ranch)</div>
+              <div class="itemprice">(12.99 / 14.99 / 20.00 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Gaucho &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, Ranch, BBQ, Hot Sauce, Onion Rings)</div>
+              <div class="itemprice">(13.79 / 15.99 / 20.99 / 31.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Meatball Sub</div>
+              <div class="itemprice">(10.99 / 12.99 / 17.99)</div>
+            </div>
+          </li>
+        </ol>
+        <div class="w-layout-vflex all-include-menu-small">
+          <div class="menusubtitles">All Include</div>
+          <div class="all-include-text">Mayo, Mustard, Lettuce, Onion, Tomato, Pickles, Peperoncinos.</div>
+        </div>
+      </div>
+      <div class="sizes">Small (6”) / Medium (9”) / Large (12”) / Family (24”)</div>
+    </div>
+    <div class="sandwiches-menu-card-exsmall">
+      <div class="menutitles-exsmall">Famous Sandwiches</div>
+      <div class="floatmenu-small">
+        <ol role="list" class="listleft-small">
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname"> Ham &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey &amp; Roast Beef</div>
+              <div class="itemprice">(10.99 / 11.99 / 18.22 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Italian Sub</div>
+              <div class="itemprice">(11.34 / 13.64 / 19.34/ 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Salami &amp; Cheese</div>
+              <div class="itemprice">(10.23 / 13.64 / 19.34 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Avocado, Cheese</div>
+              <div class="itemprice">(11.91 / 13.99 / 18.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Tuna Salad &amp; Cheese</div>
+              <div class="itemprice">(9.86 / 11.96 / 18.22 / 28.50)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot Pastrami</div>
+              <div class="itemprice">(10.36 / 11.40 / 17.63 / 26.96)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot/Cold Roast Beef</div>
+              <div class="itemprice">(10.23 / 11.99 / 17.93 / 27.46)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Chicken Ranch/BBQ</div>
+              <div class="itemprice">(10.23 / 11.99 / 17.93 / 27.46)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Hot Roast Beef &amp; Pastrami</div>
+              <div class="itemprice">(10.46 / 12.49 / 17.63 / 29.96)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">BLT &amp; Cheese</div>
+              <div class="itemprice">(9.90 / 11.99 / 18.22 / 1.23)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Ham, Bacon &amp; Cheese</div>
+              <div class="itemprice">(12.95 / 14.95 / 19.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Turkey, Avocado, Bacon &amp; Cheese</div>
+              <div class="itemprice">(12.95 / 14.95 / 19.99 / 30.74)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Veggie Delight &amp; Cheese</div>
+              <div class="itemprice">(9.95 / 11.99 / 16.95 / 1.23)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Philly Cheesesteak</div>
+              <div class="itemprice">(11.55 / 13.71 / 18.95 / 29.99)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Cali Club &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, Ranch or BBQ)</div>
+              <div class="itemprice">(12.95 / 14.99 / 19.99 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Chicken Caesar &amp; Cheese</div>
+              <div class="itemprice">(11.55 / 12.64 / 17.93 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Brooks &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, BBQ, Hot Sauce, Ranch)</div>
+              <div class="itemprice">(12.99 / 14.99 / 20.00 / 29.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-vflex menuitem-small">
+              <div class="itemname">Gaucho &amp; Cheese</div>
+              <div class="itemprice">(Chicken, Avocado, Bacon, Cheese, Ranch, BBQ, Hot Sauce, Onion Rings)</div>
+              <div class="itemprice">(13.79 / 15.99 / 20.99 / 31.95)</div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="w-layout-hflex menuitem-small">
+              <div class="itemname">Meatball Sub</div>
+              <div class="itemprice">(10.99 / 12.99 / 17.99)</div>
+            </div>
+          </li>
+        </ol>
+        <div class="w-layout-vflex all-include-menu-small">
+          <div class="menusubtitles">All Include</div>
+          <div class="all-include-text">Mayo, Mustard, Lettuce, Onion, Tomato, Pickles, Peperoncinos.</div>
+        </div>
+      </div>
+      <div class="sizes">Small (6”) / Medium (9”) / Large (12”) / Family (24”)</div>
+    </div>
     <div class="bread-and-cheese">
       <div class="bread-options-menu-card">
         <div class="menutitles">Bread Options</div>
@@ -194,12 +481,18 @@
               <div class="itemname">Wheat</div>
             </li>
           </ol>
-          <ol role="list" class="list">
+          <ol start="3" role="list" class="list">
             <li class="list-item">
-              <div class="itemname">Dutch Crunch (+0.95)</div>
+              <div class="w-layout-vflex menuitem-small">
+                <div class="itemname">Dutch Crunch</div>
+                <div class="itemprice">(+0.95)</div>
+              </div>
             </li>
             <li class="list-item">
-              <div class="itemname">Sourdough (+0.95)</div>
+              <div class="w-layout-vflex menuitem-small">
+                <div class="itemname">Sourdough</div>
+                <div class="itemprice">(+0.95)</div>
+              </div>
             </li>
           </ol>
         </div>
@@ -215,7 +508,7 @@
               <div class="itemname">Cheddar</div>
             </li>
           </ol>
-          <ol role="list" class="list">
+          <ol start="3" role="list" class="list">
             <li class="list-item">
               <div class="itemname">Pepper Jack</div>
             </li>
@@ -229,7 +522,7 @@
     <div class="apps-and-drinks">
       <div class="appetizers-menu-card">
         <div class="menutitles">Appetizers &amp; Sides</div>
-        <div class="w-layout-hflex flex-block-5">
+        <div class="w-layout-hflex appsdrinkslistbox">
           <ol role="list" class="list">
             <li class="list-item">
               <div class="w-layout-hflex menuitem">
@@ -283,12 +576,71 @@
         </div>
         <div class="w-layout-vflex salad-hover">
           <div class="menusubtitlesspecial">Build A Salad</div>
-          <div class="text-block-4">Choice of 3:<br>Lettuce, Cucumbers,<br>Tomato, Avocado, Bell<br>Pepper, Onion, Olives<br><br>Dressing:<br>Ranch, Italian, Caesar<br>(8.29)<br>Add Chicken?<br>(+2.99)</div>
+          <div class="all-include-text">Choice of 3:<br>Lettuce, Cucumbers,<br>Tomato, Avocado, Bell<br>Pepper, Onion, Olives<br><br>Dressing:<br>Ranch, Italian, Caesar<br>(8.29)<br>Add Chicken?<br>(+2.99)</div>
+        </div>
+      </div>
+      <div class="appetizers-menu-card-small">
+        <div class="menutitles">Appetizers &amp; Sides</div>
+        <div class="w-layout-hflex appsdrinkslistbox">
+          <ol role="list" class="list">
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname"> Ham &amp; Cheese</div>
+                <div class="itemprice">(9.95 / 11.99 / 16.95 / 28.50)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Regular Fries</div>
+                <div class="itemprice">(3.99)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Curly Fries</div>
+                <div class="itemprice">(3.99)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Onion Rings</div>
+                <div class="itemprice">(3.99)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Cheese Fries</div>
+                <div class="itemprice">(4.99)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Kettle Chips</div>
+                <div class="itemprice">(2.49)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Regular Chips</div>
+                <div class="itemprice">(1.99)</div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="w-layout-hflex menuitem">
+                <div class="itemname">Cookies</div>
+                <div class="itemprice">(3.50)</div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="w-layout-vflex salad-hover">
+          <div class="menusubtitlesspecial">Build A Salad</div>
+          <div class="all-include-text">Choice of 3:<br>Lettuce, Cucumbers,<br>Tomato, Avocado, Bell<br>Pepper, Onion, Olives<br><br>Dressing:<br>Ranch, Italian, Caesar<br>(8.29)<br>Add Chicken?<br>(+2.99)</div>
         </div>
       </div>
       <div class="drinks-menu-card">
         <div class="menutitles">Drinks</div>
-        <div class="w-layout-hflex flex-block-5">
+        <div class="w-layout-hflex appsdrinkslistbox">
           <ol role="list" class="list">
             <li class="list-item">
               <div class="w-layout-hflex menuitem">
@@ -362,15 +714,15 @@
     </div>
     <div class="breakfast-card">
       <div class="menutitles">Sam’s Breakfast Sandwich</div>
-      <div class="w-layout-vflex flex-block-6">
-        <div class="text-block-5">Eggs, Bacon, Ham, Mayo, Mustard, Lettuce, Onion, Tomato, Pickles, Peperoncinos<br>Available until 11 AM only</div>
-        <div class="text-block-6">(10.51 / 11.60 / 17.09)</div>
+      <div class="w-layout-vflex breakfast-box">
+        <div class="breakfasttext">Eggs, Bacon, Ham, Mayo, Mustard, Lettuce, Onion, Tomato, Pickles, Peperoncinos<br>Available until 11 AM only</div>
+        <div class="breakfast-price">(10.51 / 11.60 / 17.09)</div>
       </div>
     </div>
   </section>
   <a href="http://gauchoai.org" target="_blank" class="footer w-inline-block">
     <div class="signature">
-      <div class="text-7">Created and Maintained By</div><img src="images/GAUCHOAI-1.png" loading="lazy" width="174" height="50" alt="" srcset="images/GAUCHOAI-1-p-500.png 500w, images/GAUCHOAI-1.png 604w" sizes="(max-width: 479px) 167.90625px, (max-width: 767px) 35vw, 174px" class="gauchoai">
+      <div class="footertext">Created and Maintained By</div><img src="images/GAUCHOAI-1.png" loading="lazy" width="174" height="50" alt="" srcset="images/GAUCHOAI-1-p-500.png 500w, images/GAUCHOAI-1.png 604w" sizes="(max-width: 479px) 47vw, 174px" class="gauchoai">
     </div>
   </a>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67985c6c01443d2a241e7d36" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
