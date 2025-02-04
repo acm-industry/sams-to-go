@@ -1197,11 +1197,11 @@
 .sandwiches-menu-card-small {
   grid-row-gap: 25px;
   background-color: #ffeacb;
-  background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a13680b9d65badebe79c6a_Sam's%20To%20Go.png");
-  background-position: 0 0, -2% 103%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, auto 25%;
-  background-attachment: scroll, scroll;
+  background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a13680b9d65badebe79c6a_Sam's%20To%20Go.png"), url('../images/cheesesteak.png');
+  background-position: 0 0, 105% -1%, -2% 103%;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-size: auto, auto 30%, auto 25%;
+  background-attachment: scroll, scroll, scroll;
   border-radius: 15px;
   flex-flow: wrap;
   justify-content: center;
@@ -1368,7 +1368,8 @@
   }
 
   .sandwiches-menu-card {
-    display: flex;
+    max-width: 86vw;
+    display: none;
   }
 
   .appetizers-menu-card, .drinks-menu-card {
@@ -1380,7 +1381,7 @@
   }
 
   .sandwiches-menu-card-small {
-    display: none;
+    display: flex;
   }
 
   .orderingpartners-small {
@@ -1391,6 +1392,31 @@
 
   .appetizers-menu-card-small {
     width: 48%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sandwiches-menu-card {
+    display: none;
+  }
+
+  .sandwiches-menu-card-small {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sandwiches-menu-card {
+    background-image: linear-gradient(#ffeacb66, #ffeacb66), url('../images/cheesesteak.png'), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a13680b9d65badebe79c6a_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png");
+    background-position: 0 0, 110% 115%, -2% 103%, 52% 30%;
+    background-repeat: repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto, auto, auto 45%, 22%;
+    background-attachment: scroll, scroll, scroll, scroll;
+    display: flex;
+  }
+
+  .sandwiches-menu-card-small {
+    display: none;
   }
 }
 
@@ -1546,13 +1572,13 @@
   }
 
   .listleft-small {
-    padding-left: 50px;
+    padding-left: 5vw;
   }
 
   .menuitem-small {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    flex-flow: row;
+    flex-flow: wrap;
   }
 
   .sandwiches-menu-card-small {
@@ -1707,6 +1733,10 @@
   .sandwiches-menu-card-exsmall {
     width: 100%;
     display: flex;
+  }
+
+  .listleft-small {
+    padding-left: 6vw;
   }
 
   .menuitem-small {
@@ -1887,6 +1917,16 @@
 
   .menu-button {
     transform: scale(2);
+  }
+
+  .sandwiches-menu-card-exsmall {
+    background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a13680b9d65badebe79c6a_Sam's%20To%20Go.png");
+    background-position: 0 0, 0 101%;
+    background-size: auto, auto 12%;
+  }
+
+  .listleft-small {
+    padding-left: 11vw;
   }
 
   .call-to-order-menu-card-small {
