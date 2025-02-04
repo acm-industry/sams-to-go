@@ -1406,6 +1406,50 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .bestsandwich {
+    height: 100%;
+  }
+
+  .bestsandwichbrown, .bestsandwichred {
+    font-size: 76px;
+  }
+
+  .subheadinghome {
+    font-size: 40px;
+  }
+
+  .testimonial-slider {
+    width: 60%;
+  }
+
+  .testimonial-content {
+    max-width: none;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .testimonial-quote {
+    font-size: 25px;
+    line-height: 120%;
+  }
+
+  .testimonial-slider-arrow {
+    margin-left: -20%;
+    margin-right: -20%;
+  }
+
+  .icon {
+    transform: scale(1.5);
+  }
+
+  .ordernowtxt {
+    font-size: 64px;
+  }
+
+  .phoneimagehome {
+    width: 40%;
+  }
+
   .sandwiches-menu-card {
     background-image: linear-gradient(#ffeacb66, #ffeacb66), url('../images/cheesesteak.png'), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a13680b9d65badebe79c6a_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png");
     background-position: 0 0, 110% 115%, -2% 103%, 52% 30%;
