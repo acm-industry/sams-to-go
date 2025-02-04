@@ -1202,10 +1202,10 @@
 .sandwiches-menu-card-small {
   grid-row-gap: 25px;
   background-color: #ffeacb;
-  background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png");
+  background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a2991bd2960f0b397a9f94_Sam's%20To%20Go%20(1).png");
   background-position: 0 0, 105% 6%, -2% 103%;
   background-repeat: repeat, no-repeat, no-repeat;
-  background-size: auto, auto 15%, auto 15%;
+  background-size: auto, auto 15%, auto 30%;
   background-attachment: scroll, scroll, scroll;
   border-radius: 15px;
   flex-flow: wrap;
@@ -1464,11 +1464,11 @@
   }
 
   .sandwiches-menu-card {
-    background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png");
-    background-position: 0 0, 110% 98%, -10% 103%, 52% 30%;
-    background-repeat: repeat, no-repeat, no-repeat, no-repeat;
-    background-size: auto, auto 22%, auto 22%, 22%;
-    background-attachment: scroll, scroll, scroll, scroll;
+    background-image: linear-gradient(#ffeacb66, #ffeacb66), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a2991bd2960f0b397a9f94_Sam's%20To%20Go%20(1).png"), url("https://cdn.prod.website-files.com/67985c6c01443d2a241e7d36/67a1347c8a99a35b03638001_Sam's%20To%20Go.png");
+    background-position: 0 0, -3% 103%, 52% 30%;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-size: auto, auto 50%, 22%;
+    background-attachment: scroll, scroll, scroll;
     display: flex;
   }
 
