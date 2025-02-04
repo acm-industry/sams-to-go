@@ -1773,7 +1773,20 @@
   }
 
   .call-to-order-menu-card {
-    display: none;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    background-image: linear-gradient(#ffeacb66, #ffeacb66), url('../images/call.png-lettuce.png');
+    background-size: auto, auto 80%;
+    padding: 1vh 3vw 2vh;
+    display: flex;
+  }
+
+  .menutitles {
+    font-size: 30px;
+  }
+
+  .phone-number {
+    font-size: 23px;
   }
 
   .bread-options-menu-card {
@@ -1843,6 +1856,11 @@
   .statshoriz {
     max-width: none;
     padding: 0 1vw;
+  }
+
+  .scrollingeventsgrid {
+    margin-left: 1vw;
+    overflow: hidden;
   }
 
   .menu-button {
