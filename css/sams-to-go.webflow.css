@@ -1311,7 +1311,7 @@
   align-items: center;
   width: 100%;
   padding: 3vh 0;
-  display: inline-flex;
+  display: none;
   box-shadow: 3px 4px 10px #00000040;
 }
 
